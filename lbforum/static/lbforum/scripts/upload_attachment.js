@@ -107,7 +107,7 @@ $(function() {
 				if (o.valid) {
 					add_attachment(o.attachment);
 				}
-            },
+            }
     });
 	bind();
 });
