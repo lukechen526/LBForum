@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="sep3"></div>
-                <strong><a href="/member/MC" class="dark">{{post.posted_by.username}}</a></strong>
+                <strong><a href="{% url lbforum_user_profile post.posted_by.pk %}" class="dark">{{post.posted_by.username}}</a></strong>
                 <div class="sep5"></div>
                 <div class="content reply_content">
                     {% include 'lbforum/inc_post_content.html' %}

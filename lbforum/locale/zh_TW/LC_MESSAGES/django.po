@@ -1,0 +1,752 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-06 16:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: .\admin.py:14
+msgid "Update forum state info"
+msgstr ""
+
+#: .\admin.py:36
+msgid "Update topic state info"
+msgstr ""
+
+#: .\admin.py:50
+msgid "sticky/unsticky topics"
+msgstr ""
+
+#: .\admin.py:54
+msgid "close/unclose topics"
+msgstr ""
+
+#: .\admin.py:58
+msgid "hide/unhide topics"
+msgstr ""
+
+#: .\forms.py:12
+msgid "Last Reply"
+msgstr "最近回應"
+
+#: .\forms.py:13
+msgid "Last Topic"
+msgstr "最近主題"
+
+#: .\forms.py:17 .\templates\lbforum\forum.html.py:67
+msgid "Order By"
+msgstr "整理"
+
+#: .\forms.py:21 .\models.py:102 .\templates_v2ex\lbforum\forum.html.py:28
+msgid "Topic Type"
+msgstr "主題種類"
+
+#: .\forms.py:22
+msgid "Subject"
+msgstr "主旨"
+
+#: .\forms.py:24 .\forms.py:117
+msgid "Message"
+msgstr "訊息"
+
+#: .\forms.py:26 .\templates\lbforum\inc_post_detail.html.py:40
+#: .\templates\lbforum\post.html.py:108
+#: .\templates_v2ex\lbforum\inc_post_content.html.py:12
+msgid "Attachments"
+msgstr "附件"
+
+#: .\forms.py:28
+msgid "Need Reply"
+msgstr "需回應"
+
+#: .\forms.py:29
+msgid "Attachments Need Reply"
+msgstr "附件需回應"
+
+#: .\models.py:28
+msgid "Category"
+msgstr "分類"
+
+#: .\models.py:29
+msgid "Categories"
+msgstr "分類"
+
+#: .\models.py:49 .\models.py:83 .\models.py:101
+msgid "Forum"
+msgstr "論壇"
+
+#: .\models.py:50
+#: .\templates_v2ex\lbforum\widgets\categories_and_forums.html.py:4
+msgid "Forums"
+msgstr "論壇"
+
+#: .\models.py:96
+msgid "Default"
+msgstr "預設"
+
+#: .\models.py:97 .\templates\lbforum\inc_topic_detail.html.py:18
+#: .\templates_v2ex\lbforum\inc_topic_detail.html.py:25
+msgid "Distillate"
+msgstr ""
+
+#: .\models.py:107 .\models.py:188
+msgid "Post"
+msgstr "發文"
+
+#: .\models.py:133 .\models.py:171
+msgid "Topic"
+msgstr "主題"
+
+#: .\models.py:134 .\templates\lbforum\inc_topic_list.html.py:25
+#: .\templates\lbforum\inc_topic_list.html.py:30
+#: .\templates\lbforum\account\profile.html.py:36
+#: .\templates_v2ex\lbforum\forum.html.py:55
+#: .\templates_v2ex\lbforum\account\inc_base_profile.html.py:26
+msgid "Topics"
+msgstr "主題"
+
+#: .\models.py:165
+msgid "BBCode"
+msgstr ""
+
+#: .\models.py:166
+msgid "Html"
+msgstr ""
+
+#: .\models.py:189 .\templates\lbforum\inc_post_detail.html.py:28
+#: .\templates\lbforum\topic.html.py:71
+#: .\templates\lbforum\account\profile.html.py:37
+#: .\templates\lbforum\account\user_posts.html.py:50
+#: .\templates_v2ex\lbforum\topic.html.py:98
+#: .\templates_v2ex\lbforum\account\inc_base_profile.html.py:29
+msgid "Posts"
+msgstr "發文"
+
+#: .\models.py:198
+#, python-format
+msgid "Topic: %s"
+msgstr "主題: %s"
+
+#: .\models.py:199
+#, python-format
+msgid "Re: %s"
+msgstr ""
+
+#: .\models.py:240
+msgid "User"
+msgstr "使用者"
+
+#: .\views.py:71 .\views.py:114
+msgid "topic"
+msgstr "主題"
+
+#: .\views.py:76 .\views.py:109
+msgid "reply"
+msgstr "回應"
+
+#: .\views.py:112 .\views.py:146 .\views.py:156 .\views.py:168
+msgid "no right"
+msgstr ""
+
+#: .\templates\lbforum\forum.html.py:35 .\templates\lbforum\forum.html.py:55
+#: .\templates_v2ex\lbforum\forum.html.py:68
+msgid "Post new topic"
+msgstr "發新文"
+
+#: .\templates\lbforum\forum.html.py:37 .\templates\lbforum\forum.html.py:57
+#: .\templates\lbforum\topic.html.py:34 .\templates\lbforum\topic.html.py:92
+msgid "You must"
+msgstr "你必須"
+
+#: .\templates\lbforum\forum.html.py:37 .\templates\lbforum\forum.html.py:57
+#: .\templates\lbforum\inc_header.html.py:22
+#: .\templates\lbforum\inc_header.html.py:33
+#: .\templates\lbforum\topic.html.py:34 .\templates\lbforum\topic.html.py:92
+#: .\templates_v2ex\lbforum\inc_header.html.py:13
+#: .\templates_v2ex\lbforum\widgets\cur_user_profile.html.py:41
+msgid "Login"
+msgstr "登入"
+
+#: .\templates\lbforum\forum.html.py:37 .\templates\lbforum\forum.html.py:57
+#: .\templates\lbforum\topic.html.py:34 .\templates\lbforum\topic.html.py:92
+msgid "or"
+msgstr "或"
+
+#: .\templates\lbforum\forum.html.py:37 .\templates\lbforum\forum.html.py:57
+#: .\templates\lbforum\topic.html.py:34 .\templates\lbforum\topic.html.py:92
+msgid "register"
+msgstr "註冊"
+
+#: .\templates\lbforum\forum.html.py:37 .\templates\lbforum\forum.html.py:57
+msgid "to post a topic"
+msgstr "增加主題"
+
+#: .\templates\lbforum\inc_announce.html.py:7
+msgid "New Announcement"
+msgstr "新公告"
+
+#: .\templates\lbforum\inc_header.html.py:15
+msgid "Search"
+msgstr "搜索"
+
+#: .\templates\lbforum\inc_header.html.py:18
+#: .\templates_v2ex\lbforum\inc_header.html.py:9
+msgid "My profile"
+msgstr "我的個人資料"
+
+#: .\templates\lbforum\inc_header.html.py:19
+#: .\templates\lbforum\inc_header.html.py:31
+#: .\templates_v2ex\lbforum\inc_header.html.py:10
+msgid "Logout"
+msgstr "登出"
+
+#: .\templates\lbforum\inc_header.html.py:21
+#: .\templates\lbforum\inc_header.html.py:35
+#: .\templates_v2ex\lbforum\inc_header.html.py:12
+#: .\templates_v2ex\lbforum\widgets\cur_user_profile.html.py:38
+msgid "Register"
+msgstr "註冊"
+
+#: .\templates\lbforum\inc_header.html.py:31
+#, python-format
+msgid "Hello %(user)s"
+msgstr "您好 %(user)s"
+
+#: .\templates\lbforum\inc_new_post_brd_crumbs.html.py:18
+#: .\templates\lbforum\post.html.py:30
+#: .\templates_v2ex\lbforum\post.html.py:47
+msgid "Post new"
+msgstr "發新的"
+
+#: .\templates\lbforum\inc_new_post_brd_crumbs.html.py:18
+#: .\templates\lbforum\post.html.py:30
+#: .\templates_v2ex\lbforum\post.html.py:47
+msgid "Edit"
+msgstr "編輯"
+
+#: .\templates\lbforum\inc_post_detail.html.py:10
+#: .\templates\lbforum\post.html.py:39
+#: .\templates\lbforum\account\user_posts.html.py:59
+msgid "Topic by"
+msgstr "主題由"
+
+#: .\templates\lbforum\inc_post_detail.html.py:23
+#: .\templates\lbforum\account\profile.html.py:30
+msgid "Member"
+msgstr "成員"
+
+#: .\templates\lbforum\inc_post_detail.html.py:27
+#: .\templates\lbforum\account\profile.html.py:34
+#: .\templates_v2ex\lbforum\account\inc_base_profile.html.py:19
+#: .\templates_v2ex\lbforum\widgets\cur_user_profile.html.py:25
+msgid "Registered"
+msgstr "已註冊"
+
+#: .\templates\lbforum\inc_post_detail.html.py:53
+#: .\templates_v2ex\lbforum\inc_post_content.html.py:25
+msgid "Show Image Attachments"
+msgstr "顯示圖片附件"
+
+#: .\templates\lbforum\inc_post_detail.html.py:56
+#: .\templates_v2ex\lbforum\inc_post_content.html.py:28
+msgid "Image Attachments"
+msgstr "圖片附件"
+
+#: .\templates\lbforum\inc_post_detail.html.py:68
+#: .\templates_v2ex\lbforum\inc_post_content.html.py:40
+#: .\templatetags\bbcode.py:31
+msgid "to see the content, user must reply first."
+msgstr "必須先回應才能看到內容"
+
+#: .\templates\lbforum\inc_post_detail.html.py:85
+#: .\templates_v2ex\lbforum\inc_post_detail.html.py:18
+#: .\templates_v2ex\lbforum\topic.html.py:73
+msgid "quote"
+msgstr "引用"
+
+#: .\templates\lbforum\inc_post_detail.html.py:87
+#: .\templates_v2ex\lbforum\inc_post_detail.html.py:20
+#: .\templates_v2ex\lbforum\topic.html.py:68
+msgid "edit"
+msgstr "編輯"
+
+#: .\templates\lbforum\inc_post_detail.html.py:90
+#: .\templates\lbforum\topic.html.py:66
+#: .\templates_v2ex\lbforum\inc_post_detail.html.py:23
+#: .\templates_v2ex\lbforum\topic.html.py:54
+msgid "Do you want to delete it?"
+msgstr "你要刪除它？"
+
+#: .\templates\lbforum\inc_post_detail.html.py:90
+#: .\templates\lbforum\topic.html.py:66
+#: .\templates_v2ex\lbforum\inc_post_detail.html.py:23
+#: .\templates_v2ex\lbforum\topic.html.py:54
+msgid "delete"
+msgstr "刪除"
+
+#: .\templates\lbforum\inc_topic_detail.html.py:10
+#: .\templates_v2ex\lbforum\inc_topic_detail.html.py:17
+msgid "Closed"
+msgstr "已關閉"
+
+#: .\templates\lbforum\inc_topic_detail.html.py:14
+#: .\templates_v2ex\lbforum\inc_topic_detail.html.py:21
+msgid "Sticky"
+msgstr "黏"
+
+#: .\templates\lbforum\inc_topic_detail.html.py:36
+#: .\templates\lbforum\inc_topic_list.html.py:31
+#: .\templates\lbforum\account\user_posts.html.py:69
+#: .\templates_v2ex\lbforum\account\user_topics.html.py:29
+msgid "replies"
+msgstr "回應"
+
+#: .\templates\lbforum\inc_topic_detail.html.py:40
+#: .\templates\lbforum\inc_topic_list.html.py:32
+#: .\templates_v2ex\lbforum\inc_topic_detail.html.py:38
+msgid "views"
+msgstr "觀看"
+
+#: .\templates\lbforum\inc_topic_detail.html.py:43
+#: .\templates\lbforum\widgets\categories_and_forums.html.py:33
+#: .\templates_v2ex\lbforum\inc_topic_detail.html.py:39
+#: .\templates_v2ex\lbforum\topic.html.py:100
+msgid "Last post"
+msgstr "最近發文"
+
+#: .\templates\lbforum\inc_topic_list.html.py:9
+#: .\templates\lbforum\inc_topic_list.html.py:19
+#: .\templates_v2ex\lbforum\forum.html.py:33
+#: .\templates_v2ex\lbforum\forum.html.py:75
+msgid "All"
+msgstr "所以"
+
+#: .\templates\lbforum\inc_topic_list.html.py:22
+#: .\templates_v2ex\lbforum\forum.html.py:78
+msgid "Distillate District"
+msgstr ""
+
+#: .\templates\lbforum\inc_topic_list.html.py:33
+#: .\templates\lbforum\widgets\categories_and_forums.html.py:11
+#: .\templates_v2ex\lbforum\account\user_topics.html.py:31
+msgid "last post"
+msgstr "最近發文"
+
+#: .\templates\lbforum\index.html.py:34
+#: .\templates_v2ex\lbforum\index.html.py:19
+msgid "Friend Links"
+msgstr "朋友連接"
+
+#: .\templates\lbforum\markitup_preview.html.py:11
+#: .\templates_v2ex\lbforum\markitup_preview.html.py:11
+msgid "preview"
+msgstr "預覽"
+
+#: .\templates\lbforum\post.html.py:34
+msgid "Preview your"
+msgstr "預覽你的"
+
+#: .\templates\lbforum\post.html.py:34 .\templates\lbforum\post.html.py:52
+msgid "new"
+msgstr "新"
+
+#: .\templates\lbforum\post.html.py:34 .\templates\lbforum\post.html.py:52
+msgid "edited"
+msgstr "已修改"
+
+#: .\templates\lbforum\post.html.py:52
+msgid "Compose and post your"
+msgstr "寫和發你的"
+
+#: .\templates\lbforum\post.html.py:55 .\templates\lbforum\topic.html.py:106
+#: .\templates_v2ex\lbforum\post.html.py:26
+#: .\templates_v2ex\lbforum\topic.html.py:135
+msgid "You may use"
+msgstr "你可使用"
+
+#: .\templates\lbforum\post.html.py:58
+#: .\templates\lbforum\account\signature.html.py:25
+#: .\templates\lbforum\account\avatar\change.html.py:21
+#: .\templates_v2ex\lbforum\post.html.py:61
+msgid "Please correct the errors below."
+msgstr "請更正以下錯誤"
+
+#: .\templates\lbforum\post.html.py:67
+msgid "Required information"
+msgstr "所需資料"
+
+#: .\templates\lbforum\post.html.py:71
+msgid "Topic subject"
+msgstr "主題"
+
+#: .\templates\lbforum\post.html.py:71 .\templates\lbforum\post.html.py:80
+#: .\templates\lbforum\topic.html.py:115
+msgid "Required"
+msgstr "必須"
+
+#: .\templates\lbforum\post.html.py:80 .\templates\lbforum\topic.html.py:115
+msgid "Write message"
+msgstr "寫訊息"
+
+#: .\templates\lbforum\post.html.py:90
+msgid "Optional post settings"
+msgstr "可選的發文設定"
+
+#: .\templates\lbforum\post.html.py:96
+msgid "reply to see the post"
+msgstr "回應後看此文"
+
+#: .\templates\lbforum\post.html.py:102 .\templatetags\lbforum_tags.py:39
+msgid "reply to see the attachments"
+msgstr "回應後看附件"
+
+#: .\templates\lbforum\post.html.py:123 .\templates\lbforum\topic.html.py:121
+#: .\templates_v2ex\lbforum\post.html.py:82
+#: .\templates_v2ex\lbforum\topic.html.py:128
+msgid "Submit"
+msgstr "提交"
+
+#: .\templates\lbforum\post.html.py:124 .\templates\lbforum\topic.html.py:122
+#: .\templates_v2ex\lbforum\post.html.py:83
+#: .\templates_v2ex\lbforum\topic.html.py:129
+msgid "Preview"
+msgstr "預覽"
+
+#: .\templates\lbforum\post.html.py:130
+msgid "Topic review (newest first)"
+msgstr "主題預覽(新的最先)"
+
+#: .\templates\lbforum\post.html.py:136
+msgid "Post by"
+msgstr "發文人"
+
+#: .\templates\lbforum\post.html.py:194
+#: .\templates_v2ex\lbforum\post.html.py:125
+msgid "submit"
+msgstr "提交"
+
+#: .\templates\lbforum\post_paginate.html.py:5
+#: .\templates_v2ex\lbforum\post_paginate.html.py:5
+msgid "Pages"
+msgstr "頁"
+
+#: .\templates\lbforum\redirect.html.py:17
+#: .\templates_v2ex\lbforum\redirect.html.py:18
+msgid "You should automatically be forwarded to a new page in 5 second."
+msgstr "5秒後，你應該自動被轉發到一個新的頁面。"
+
+#: .\templates\lbforum\redirect.html.py:20
+#: .\templates_v2ex\lbforum\redirect.html.py:21
+msgid ""
+"Click here if you do not want to wait any longer (or if your browser does "
+"not automatically forward you)"
+msgstr "點擊這裡如果你不想再等了（或者如果您的瀏覽器不能自動向前）"
+
+#: .\templates\lbforum\topic.html.py:32 .\templates\lbforum\topic.html.py:90
+#: .\templates_v2ex\lbforum\topic.html.py:78
+msgid "Post reply"
+msgstr "文章回應"
+
+#: .\templates\lbforum\topic.html.py:34 .\templates\lbforum\topic.html.py:92
+msgid "to post a reply"
+msgstr "來回應文章"
+
+#: .\templates\lbforum\topic.html.py:47
+msgid "unsticky"
+msgstr "不黏"
+
+#: .\templates\lbforum\topic.html.py:47
+msgid "sticky"
+msgstr "黏"
+
+#: .\templates\lbforum\topic.html.py:52
+#: .\templates_v2ex\lbforum\topic.html.py:40
+msgid "undistillate"
+msgstr ""
+
+#: .\templates\lbforum\topic.html.py:52
+#: .\templates_v2ex\lbforum\topic.html.py:40
+msgid "distillate"
+msgstr ""
+
+#: .\templates\lbforum\topic.html.py:57
+#: .\templates_v2ex\lbforum\topic.html.py:45
+msgid "unclose"
+msgstr "打開"
+
+#: .\templates\lbforum\topic.html.py:57
+#: .\templates_v2ex\lbforum\topic.html.py:45
+msgid "close"
+msgstr "關閉"
+
+#: .\templates\lbforum\topic.html.py:62
+#: .\templates_v2ex\lbforum\topic.html.py:50
+msgid "unhide"
+msgstr "顯示"
+
+#: .\templates\lbforum\topic.html.py:62
+#: .\templates_v2ex\lbforum\topic.html.py:50
+msgid "hide"
+msgstr "隱藏"
+
+#: .\templates\lbforum\topic.html.py:103
+#: .\templates_v2ex\lbforum\topic.html.py:120
+msgid "Quick reply to this topic"
+msgstr "快速回文"
+
+#: .\templates\lbforum\topic.html.py:112
+msgid "Compose your post"
+msgstr "寫你的文章"
+
+#: .\templates\lbforum\account\base.html.py:27
+#: .\templates\lbforum\account\base.html.py:75
+msgid "'s profile"
+msgstr "的個人資料"
+
+#: .\templates\lbforum\account\base.html.py:37
+#: .\templates\lbforum\account\base.html.py:40
+#: .\templates_v2ex\lbforum\account\base.html.py:18
+#: .\templates_v2ex\lbforum\account\base.html.py:21
+msgid "Introduction"
+msgstr "介紹"
+
+#: .\templates\lbforum\account\base.html.py:45
+#: .\templates\lbforum\account\avatar\change.html.py:9
+#: .\templates\lbforum\account\avatar\change.html.py:15
+#: .\templates\lbforum\account\avatar\change.html.py:30
+#: .\templates_v2ex\lbforum\account\base.html.py:29
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:16
+msgid "Avatar"
+msgstr "頭像"
+
+#: .\templates\lbforum\account\base.html.py:50
+#: .\templates\lbforum\account\signature.html.py:8
+#: .\templates\lbforum\account\signature.html.py:19
+#: .\templates\lbforum\account\signature.html.py:34
+msgid "Signature"
+msgstr "簽章"
+
+#: .\templates\lbforum\account\profile.html.py:9
+#: .\templates\lbforum\account\profile.html.py:15
+#: .\templates_v2ex\lbforum\account\profile.html.py:9
+#: .\templates_v2ex\lbforum\account\user_posts.html.py:9
+#: .\templates_v2ex\lbforum\account\user_topics.html.py:9
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:9
+#, python-format
+msgid "%(view_user)s's profile"
+msgstr "%(view_user)s的個人資料"
+
+#: .\templates\lbforum\account\profile.html.py:16
+msgid "Welcome to your profile"
+msgstr "歡迎到你的個人資料頁"
+
+#: .\templates\lbforum\account\profile.html.py:21
+#: .\templates_v2ex\lbforum\account\base.html.py:26
+msgid "Change your password"
+msgstr "更改密碼"
+
+#: .\templates\lbforum\account\profile.html.py:35
+msgid "Last login"
+msgstr "最近登入"
+
+#: .\templates\lbforum\account\profile.html.py:43
+msgid "Posts and topics"
+msgstr "文章和主題"
+
+#: .\templates\lbforum\account\profile.html.py:45
+#: .\templates_v2ex\lbforum\account\inc_base_profile.html.py:37
+#, python-format
+msgid "View all %(view_user)s's posts"
+msgstr "看 %(view_user)s所有的文章"
+
+#: .\templates\lbforum\account\profile.html.py:46
+#: .\templates_v2ex\lbforum\account\inc_base_profile.html.py:34
+#, python-format
+msgid "View all %(view_user)s's topics"
+msgstr "看 %(view_user)s所有的主題"
+
+#: .\templates\lbforum\account\signature.html.py:8
+#: .\templates\lbforum\account\signature.html.py:19
+#: .\templates\lbforum\account\avatar\change.html.py:9
+#: .\templates\lbforum\account\avatar\change.html.py:15
+#, python-format
+msgid "%(user)s's profile"
+msgstr "%(user)s的個人資料"
+
+#: .\templates\lbforum\account\signature.html.py:20
+msgid "Create or modify a signature for display in your posts"
+msgstr "創建或修改顯示在您的文章的簽名"
+
+#: .\templates\lbforum\account\signature.html.py:37
+msgid "Current signature"
+msgstr "現用簽名"
+
+#: .\templates\lbforum\account\signature.html.py:44
+msgid "Compose signature"
+msgstr "撰寫簽名"
+
+#: .\templates\lbforum\account\signature.html.py:48
+msgid "Maximum size 400 characters long and 4 lines high."
+msgstr "最多400字和4行."
+
+#: .\templates\lbforum\account\signature.html.py:57
+msgid "Update profile"
+msgstr "更新個人資料"
+
+#: .\templates\lbforum\account\user_posts.html.py:27
+#, python-format
+msgid "Posts by %(view_user)s"
+msgstr "%(view_user)s的文章"
+
+#: .\templates\lbforum\account\user_posts.html.py:43
+#: .\templates\lbforum\account\user_posts.html.py:108
+#: .\templates\lbforum\account\user_topics.html.py:27
+#: .\templates\lbforum\account\user_topics.html.py:43
+#: .\templates\lbforum\account\user_topics.html.py:70
+#: .\templates_v2ex\lbforum\account\user_posts.html.py:24
+#: .\templates_v2ex\lbforum\account\user_topics.html.py:24
+#, python-format
+msgid "Topics by %(view_user)s"
+msgstr "%(view_user)s的主題"
+
+#: .\templates\lbforum\account\user_posts.html.py:69
+msgid "posted in"
+msgstr "發在"
+
+#: .\templates\lbforum\account\avatar\change.html.py:16
+msgid "Set an avatar image to enhance your forum identity"
+msgstr "加入你的頭像"
+
+#: .\templates\lbforum\account\avatar\change.html.py:33
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:24
+msgid "Current avatar"
+msgstr "現用頭像"
+
+#: .\templates\lbforum\account\avatar\change.html.py:39
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:42
+msgid "Upload avatar file"
+msgstr "上傳頭像檔案"
+
+#: .\templates\lbforum\account\avatar\change.html.py:41
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:36
+msgid "The allowed image file types are"
+msgstr "允許的圖像文件類型"
+
+#: .\templates\lbforum\account\avatar\change.html.py:41
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:36
+msgid "and"
+msgstr "和"
+
+#: .\templates\lbforum\account\avatar\change.html.py:44
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:45
+msgid "Avatar Image"
+msgstr "頭像圖片"
+
+#: .\templates\lbforum\account\avatar\change.html.py:49
+#: .\templates_v2ex\lbforum\account\avatar\change.html.py:52
+msgid "Upload New Image"
+msgstr "上傳圖片"
+
+#: .\templates\lbforum\widgets\categories_and_forums.html.py:9
+#: .\templates\lbforum\widgets\categories_and_forums.html.py:27
+#: .\templates_v2ex\lbforum\account\user_topics.html.py:30
+msgid "topics"
+msgstr "主題"
+
+#: .\templates\lbforum\widgets\categories_and_forums.html.py:10
+#: .\templates\lbforum\widgets\categories_and_forums.html.py:30
+msgid "posts"
+msgstr "文章"
+
+#: .\templates\lbforum\widgets\lbf_status.html.py:6
+#: .\templates_v2ex\lbforum\widgets\lbf_status.html.py:10
+msgid "Total number of registered users"
+msgstr "總註冊人數"
+
+#: .\templates\lbforum\widgets\lbf_status.html.py:9
+msgid "Newest registered user"
+msgstr "最新用戶"
+
+#: .\templates\lbforum\widgets\lbf_status.html.py:18
+#: .\templates_v2ex\lbforum\widgets\lbf_status.html.py:14
+msgid "Total number of topics"
+msgstr "總主題數"
+
+#: .\templates\lbforum\widgets\lbf_status.html.py:21
+#: .\templates_v2ex\lbforum\widgets\lbf_status.html.py:18
+msgid "Total number of posts"
+msgstr "總文章數"
+
+#: .\templates\lbforum\widgets\onlineinfos.html.py:4
+#: .\templates_v2ex\lbforum\widgets\onlineinfos.html.py:5
+msgid "Currently online"
+msgstr "在線"
+
+#: .\templates\lbforum\widgets\onlineinfos.html.py:4
+#: .\templates_v2ex\lbforum\widgets\onlineinfos.html.py:6
+msgid "guests"
+msgstr "訪客"
+
+#: .\templates\lbforum\widgets\onlineinfos.html.py:4
+#: .\templates_v2ex\lbforum\widgets\onlineinfos.html.py:6
+msgid "registered user"
+msgstr "註冊用戶"
+
+#: .\templates\pagination\pagination.html.py:5
+#: .\templates\pagination\pagination.html.py:7
+msgid "previous"
+msgstr "往前"
+
+#: .\templates\pagination\pagination.html.py:21
+#: .\templates\pagination\pagination.html.py:23
+msgid "next"
+msgstr "往後"
+
+#: .\templates_v2ex\lbforum\index.html.py:39
+msgid "More"
+msgstr "更多"
+
+#: .\templates_v2ex\lbforum\recent.html.py:23
+msgid "Recent Topics"
+msgstr "新進主題"
+
+#: .\templates_v2ex\lbforum\topic.html.py:91
+msgid "No Reply"
+msgstr "無回應"
+
+#: .\templates_v2ex\lbforum\plugins\inc_header_left_links.html.py:3
+msgid "Home"
+msgstr "首頁"
+
+#: .\templates_v2ex\lbforum\plugins\inc_header_left_links.html.py:6
+msgid "Forum Home"
+msgstr "論壇首頁"
+
+#: .\templates_v2ex\lbforum\widgets\lbf_status.html.py:4
+msgid "Forum Status"
+msgstr "論壇狀態"
+
+#: .\templatetags\lbforum_filters.py:64
+msgid "Online"
+msgstr "上線"
+
+#: .\templatetags\lbforum_filters.py:67
+msgid "Offline"
+msgstr "下線"
+
+#: .\templatetags\lbforum_filters.py:87
+#, python-format
+msgid "%s ago"
+msgstr "%s前"
